@@ -1,0 +1,13 @@
+<aside>
+  <div class="container">
+    <nav>
+      <h1>UCLA CS Class Notes</h1>
+      <ul>
+        <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+        {% for course in site.pages %} {% if course.title %}
+        <li><a href="{{ course.url | prepend: site.baseurl }}">{{ course.title }}</a></li>
+        {% endif %} {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</aside>

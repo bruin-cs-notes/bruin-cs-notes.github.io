@@ -1,0 +1,13 @@
+# Site settings
+title: Bruin CS Notes
+description: >
+  A collaborative collection of notes for CS classes at UCLA. We hope that it will create a community that has a more additive approach to learning. That is, your learning experience ought to be strictly better than the learning experience of someone who took the class previously, because the students in that previous class improved upon the knowledge base. Additionally, this project will teach folks how to contribute to open source projects.
+github_username: bruin-cs-notes
+
+# Build settings
+include: ['courses']
+sass:
+  sass_dir: _sass
+kramdown:
+  input: GFM
+
